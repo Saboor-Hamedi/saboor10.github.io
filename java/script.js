@@ -13,14 +13,15 @@ button.addEventListener('click', function(){
 
 // color panel
 
-	let show_panel = document.getElementById('color-picker');
+	let show_panel = document.getElementById('panel-edge');
+	let pickcolor = document.getElementById('color-picker');
 	show_panel.addEventListener('click', function(){
-	if(!show_panel.style.display || show_panel.style.height === "0px"){
-		show_panel.style.display = 'block';
-		show_panel.style.height = "300px";
+	if(!pickcolor.style.display || pickcolor.style.height === "0px"){
+		pickcolor.style.display = 'block';
+		pickcolor.style.height = "300px";
 	
 	}else{
-		show_panel.style.height ="0px";
+		pickcolor.style.height ="0px";
 		
 	}
 	});
