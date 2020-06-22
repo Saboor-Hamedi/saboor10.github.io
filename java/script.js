@@ -25,3 +25,6 @@ button.addEventListener('click', function(){
 		
 	}
 	});
+
+	// image
+	
