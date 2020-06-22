@@ -114,13 +114,15 @@ body{
 /* color-picker */
 #color-picker{
 	position: fixed;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	bottom: 0;
-	right: 10px;
+	right: 0px;
 	width: 300px;
 	height: 0px;
 	z-index: 1;
 	background-color: #01024e;
-	
 	transition: 0.5s;
 	
 	
@@ -130,7 +132,7 @@ body{
 #color-panel{
 	width: 300px;
 	background-color: white;;
-	display:inline-block;
+	
 	padding: 10px;
 	
 
@@ -201,16 +203,17 @@ body{
 		padding: 0;
 		width: 100%;
 	}
-	#color-panel{
-	
-	
-		width: 100%;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-	
-	}
-	#colors{
-		
-		transform: translateX(-2px);
-	}
+
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	#color-picker{
+			left: 0;
+			right: 0;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+	}
