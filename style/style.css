@@ -213,7 +213,7 @@ body{
 	
 }
 
-@media (max-width: 900px){
+@media only screen  and (max-device-width:900px){
 	#color-picker{
 		left: 0;
 		right: 0;
@@ -221,6 +221,7 @@ body{
 		padding: 0;
 		width: 100%;
 	}
+	
 	#header{
 		margin: 0;
 		position: relative;
@@ -247,6 +248,7 @@ body{
 		display: block;
 	}
 }
+
 @media only screen  and (max-device-width:480px){
 	#color-picker{
 		left: 0;
@@ -254,6 +256,11 @@ body{
 		margin: 0;
 		padding: 0;
 		width: 100%;
+	}
+	.rotat i {
+		font-size: 20px;
+		padding: 20px;
+		
 	}
 	#header{
 		margin: 0;
