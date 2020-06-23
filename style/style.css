@@ -260,7 +260,12 @@ body{
 	.rotat i {
 		font-size: 20px;
 		padding: 20px;
+		line-height: 2;
 		
+	}
+	.panel-edge{
+		width: 100%;
+		padding: 10px;
 	}
 	#header{
 		margin: 0;
