@@ -242,11 +242,42 @@ body{
 		
 	
 	}
-	.item a{
 	
-	}
 	#open{
 		display: block;
 	}
 }
+@media only screen  and (max-device-width:480px){
+	#color-picker{
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#header{
+		margin: 0;
+		position: relative;
+		width: 100%;
+	}
+	.item ul{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: inline-block;
+		
+	}
+	.item li{
 
+		text-align: center;
+		margin: 0;
+		padding: 20px;
+		border:1px solid #ccc;
+		
+	
+	}
+	
+	#open{
+		display: block;
+	}
+}
