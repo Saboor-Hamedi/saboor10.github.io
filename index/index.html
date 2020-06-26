@@ -3,77 +3,207 @@
 
 <head>
     <title>portfolio</title>
-	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="../font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
 
-   
-      
+    <!--   nav bar start-->
+    <nav class="navbar navbar-expand-lg navbar-defaul sticky-top navbar-dark bg-dark">
 
-    <div id="open"><i class="fa fa-close"></i></div>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <header class="header">
+                <ul class="navbar-nav mr-auto">
+                    <div class="nav-item">
+                        <li id="show-side">
+                            <a class="nav-link" href="javascript:void(0)">
+                                Side bar
+                            </a>
+                        </li>
+                    </div>
+                    <div class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">
+                                Home
+                            </a>
+                        </li>
+                    </div>
+                    <div class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">
+                                Home
+                            </a>
+                        </li>
+                    </div>
+                    <div class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">
+                                Home
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </header>
+        </div>
+    </nav>
+
+    <!--   nav bar end-->
+
     <aside id="side-bar">
-        
-			<header id="header">
-				<div class="item">
-					<ul>
-						<li><a href="javascript:void(0)">Home</a></li>
-						<li><a href="javascript:void(0)">Home</a></li>
-						<li><a href="javascript:void(0)">Home</a></li>
-						<li><a href="javascript:void(0)">Home</a></li>
-						<li id="show-side"><a href="javascript:void(0)"><i class="fa fa-align-justify"></i></a></li>
-					</ul>
-				</div>
-			</header>
-        
+
     </aside>
-   
+
     <main id="main">
-    	<!-- div a -->
-       <section id="section-a">
-       	<div class="title">
-       		<h1>Welcome to my portfilio</h1>
-       		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, optio.</p>
-       	</div>
-	   </section>
-	   <!-- section b -->
+        <section class="swiper-container section-a" id="section1">
 
-	   <section id="section-b">
-			<div class="content">
-			<div><img src='../image/qadir.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/zergi.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/hasib.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/mansoor.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/omer.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/qadir.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/ahmad.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/raziq.png' width="200px" height="200px" alt ="not found"></div>
-			<div><img src='../image/qari.jpg' width="200px" height="200px" alt ="not found"></div>
-			</div>
-	   </section>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../image/image1.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
 
-	   <!-- this is color picker -->
-	   <div class="scroll">
-	   <aside id="color-picker" class="grid-panel">
-			<div class="panel-edge" id="panel-edge">
-				<span class="rotat">
-					<i class="fa fa-cog"></i>
-				</span>
-			</div>
-			<div id="infor-panel">
-        <h1>Abdul Saboor Hamedi</h1>
-		<p>Hello everyone, this is saboor from Afghanistan and I'm a very basic programmer.</p>
-		
-		</div>
-	   </aside>
-	</div>
+                <div class="swiper-slide"><img src="../image/image2.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image3.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image4.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image5.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image6.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image7.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image8.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image9.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+                <div class="swiper-slide"><img src="../image/image10.png" class="image-top" alt="">
+                    <div class="contents">
+                        <h4>Hell this me</h4>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="left">
+                <a onclick=mySwiper.autoplay.stop(); class="autoplay stop">||</a>
+
+            </div>
+            <div class="right">
+                <a onclick=mySwiper.autoplay.start(); class="autoplay play">▷</a>
+            </div>
+
+        </section>
+
+        <!-- section b -->
+        <section class="section-b" id="section2">
+            <nav class="columns">
+                <div class="rows">
+                    <div class="profile-image"><img src="../image/image13.png" alt=""> </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minima illum quod error amet asperiores.
+                </div>
+                <div class="rows">
+                    <div class="profile-image"><img src="../image/image14.png" alt=""> </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minima illum quod error amet asperiores.
+                </div>
+                <div class="rows">
+                    <div class="profile-image"><img src="../image/image15.png" alt=""> </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minima illum quod error amet asperiores.
+                </div>
+                <div class="rows">
+                    <div class="profile-image"><img src="../image/image16.png" alt=""> </div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minima illum quod error amet asperiores.
+                </div>
+            </nav>
+        </section>
+
+        <section class="section-c" id="section3">
+            <h1>section 3</h1>
+        </section>
+
+        <!-- this is color picker -->
+        <div class="scroll">
+            <aside id="color-picker" class="grid-panel">
+                <div class="panel-edge" id="panel-edge">
+                    <span class="rotat">
+                        <i class="fa fa-cog"></i>
+                    </span>
+                </div>
+                <div id="infor-panel">
+                    <h1>Abdul Saboor Hamedi</h1>
+                    <p>Hello everyone, this is saboor from Afghanistan and I'm a very basic programmer.</p>
+                </div>
+            </aside>
+        </div>
+
     </main>
 
-    <script src="../java/script.js">
+
+    <!--   header bootsrap-->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--   end header bootsrta
+   -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="../java/script.js"></script>
+
+
+    <script>
 
     </script>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
