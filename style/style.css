@@ -256,7 +256,7 @@ body {
     padding: 0;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
     #color-picker {
         margin: 0;
         padding: 0;
@@ -278,7 +278,13 @@ body {
        
     }
     
-   
+     #color-picker {
+        right: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        z-index: 3;
+    }
     .panel-edge {
         width: 100%;
         
@@ -288,22 +294,14 @@ body {
 
 }
 
-@media only screen and (max-device-width:480px) {
-    #color-picker {
-        right: 0;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        z-index: 3;
-    }
-
-}
 
 @media(min-height: 900px) {
    .section-a{
-        height: 40vh;
+     
+        height: 30vh;
     }
     .image-top{
+          margin-top: 10%;
         height: 40vh;
     }
 
