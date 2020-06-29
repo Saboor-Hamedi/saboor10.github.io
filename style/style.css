@@ -285,7 +285,7 @@ body {
 
 }
 @media (max-width: 600px){
-     .columns {       
+    .columns {       
     grid-gap: 2px;
     grid-row: 2px;
     grid-template-columns: repeat(1, 1fr);
@@ -297,7 +297,7 @@ body {
     }
 }
 
-@media(max-height: 600px){
+@media screen and (max-width: 995px) , screen and (max-height: 700px){
    .section-a{
         height: 30vh;
     }
