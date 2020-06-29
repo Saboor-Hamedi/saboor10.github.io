@@ -295,14 +295,14 @@ body {
 }
 
 
-@media(min-height: 900px) {
+@media(min-height: 600px),(max-width: 600px) {
    .section-a{
      
         height: 30vh;
     }
     .image-top{
           margin-top: 10%;
-        height: 40vh;
+           height: 40vh;
     }
 
 }
