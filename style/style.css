@@ -13,13 +13,7 @@
 body {
     background-color: var(--primary);
 }
-
-
-
-
-
-
-.section1 {
+.section-a {
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -133,7 +127,7 @@ body {
 #color-picker {
     position: fixed;
     bottom: 0;
-    right: 0px;
+    right: 0;
     width: 300px;
     height: 0px;
     z-index: 1;
@@ -147,22 +141,17 @@ body {
 #color-panel {
     width: 300px;
     display: inline-block;
-
-
-
-
 }
 
 #infor-panel {
     color: white;
     text-align: center;
-
 }
 
 .panel-edge {
     position: relative;
     bottom: 50px;
-    width: 50px;
+     width: 100%;
     padding: 25px;
     display: flex;
     justify-content: center;
@@ -269,54 +258,14 @@ body {
 
 @media (max-width:900px) {
     #color-picker {
-        left: 0;
-        right: 0;
         margin: 0;
         padding: 0;
         width: 100%;
         z-index: 3;
 
     }
-
-   
-  
-
-}
-
-@media only screen and (max-device-width:480px) {
-    #color-picker {
-        left: 0;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        z-index: 3;
-    }
-
-    .rotat i {
-        font-size: 20px;
-        padding: 20px;
-        line-height: 2;
-
-    }
-
-    .panel-edge {
-        width: 100%;
-        padding: 10px;
-
-    }
-
-   
-
-  
-
-   
-
-}
-
-@media(max-width: 950px) {
-    .columns {       
-   
+    
+  .columns {       
     grid-gap: 2px;
     grid-row: 2px;
     
@@ -328,8 +277,34 @@ body {
         text-align: center;
        
     }
-    .profile-image{
-         
+    
+   
+    .panel-edge {
+        width: 100%;
+        
+
+    }
+
+
+}
+
+@media only screen and (max-device-width:480px) {
+    #color-picker {
+        right: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
+}
+
+@media(min-height: 900px) {
+   .section-a{
+        height: 40vh;
+    }
+    .image-top{
+        height: 40vh;
     }
 
 }
