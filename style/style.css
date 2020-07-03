@@ -12,7 +12,6 @@ main {
 }
 
 section {
-    
     width: 100%;
     height: 100vh;
     transition: .5s;
@@ -20,36 +19,36 @@ section {
     transition: .5s;
     margin: 0;
     padding: 0;
+    
 }
 
 
 .section1 {
-    max-width: 100%;
+    width: 100%;  
     height: 100vh;
+    background: blue;
    
+
+}
+.slider{
+position: absolute;
+background: black;
+width: 100%;
+
+
     
 }
-
-.slider {
-    position: absolute;
+.mySlides{
     width: 100%;
     height: 100vh;
-    transition: .5s;
-
+   
 }
-
-.image-background img {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-
-}
-
 /*this is for the previous and next*/
 .slide-panel-move {
-    position: relative;
+    position: absolute;
     top: 30%;
-    padding: 10px;
+    padding: 5px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 
@@ -66,11 +65,11 @@ section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 0.5em;
     background: orange;
+    margin-top: 10px;
     padding: 10px;
     transition: .5s;
 }
 .card{
-   
     background: blue;
 }
 .card img{
@@ -97,8 +96,9 @@ section {
         grid-template-columns: 1fr ;
     }
 }
-@media(min-height: 900px){
-     .section1 .slider{
-        height: 200px;
+@media screen and (max-width: 995px) , screen and (max-height: 700px) {
+    .section1, .slider, .mySlides{
+        height: 300px;
+        background: black;
     }
 }
