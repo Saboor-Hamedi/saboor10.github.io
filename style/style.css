@@ -12,6 +12,7 @@ main {
 }
 
 section {
+    
     width: 100%;
     height: 100vh;
     transition: .5s;
@@ -23,9 +24,10 @@ section {
 
 
 .section1 {
+    max-width: 100%;
     height: 100vh;
-
-
+   
+    
 }
 
 .slider {
@@ -35,7 +37,6 @@ section {
     transition: .5s;
 
 }
-
 
 .image-background img {
     width: 100%;
@@ -58,26 +59,46 @@ section {
     display: none;
 }
 
-.section2 {}
-
-.card-deck {
-    margin: 0;
+.section2 {
+    width: 100%;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+    background: orange;
+    padding: 10px;
+    transition: .5s;
+}
+.card{
+   
+    background: blue;
+}
+.card img{
+    height: 200px;
+    background: blue;
 }
 
-.card img {
-    height: 10em;
-}
 
-.section3 {}
+
+.section3 {
+    margin-top: 10px;
+    background: yellow;
+}
 
 /* Portrait and Landscape */
-@media only screen and (-webkit-min-device-pixel-ratio: 3),
-  only screen and (min-resolution: 3dppx), /* Default way */
-  only screen and (min-resolution: 350dpi) /* dppx fallback */ {
-  .section1 {
-    height: 300px;
-  }
+@media(max-width: 900px){
+    .section2{
+        grid-template-columns: 1fr 1fr;
+    }
+   
+}
+@media(max-width: 600px){
+    .section2{
+        grid-template-columns: 1fr ;
+    }
+}
+@media(min-height: 900px){
+     .section1 .slider{
+        height: 200px;
+    }
 }
