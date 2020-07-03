@@ -69,9 +69,7 @@ width: 100%;
     padding: 10px;
     transition: .5s;
 }
-.card{
-    background: blue;
-}
+
 .card img{
     height: 200px;
     background: blue;
