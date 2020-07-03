@@ -74,8 +74,10 @@ section {
 .section3 {}
 
 /* Portrait and Landscape */
-@media all and (max-device-height: 600px){
-    .section1  {
-        height: 400px;
-    }
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (min-resolution: 3dppx), /* Default way */
+  only screen and (min-resolution: 350dpi) /* dppx fallback */ {
+  .section1 {
+    height: 300px;
+  }
 }
