@@ -63,7 +63,12 @@ section {
 .image-background {
     display: none;
 }
+.card:hover img{
+    transition: all 0.3s;
+    transform: scale(.9);
 
+    border-radius: 10px;
+}
 .name-title {
     position: absolute;
     margin-left: auto;
@@ -107,6 +112,7 @@ section {
 
 .card-text {
     color: white;
+    text-align: center;
 }
 
 small {
@@ -192,7 +198,7 @@ small {
     background-color: rgba(0, 0, 0, 0.599);
     cursor: pointer;
     transition: 0.5s;
-        animation: background-animation 5s infinite;
+/*    animation: background-animation 5s infinite;*/
 }
 
 #footer a {
@@ -216,7 +222,7 @@ small {
     color: red;
 }
 
-#footer li ::after {
+#footer li::after {
     content: '';
     position: absolute;
     top: 0;
@@ -242,6 +248,7 @@ small {
         box-shadow: 0 0 10px #ffee10;
         text-shadow: 0 0 10px #ffee10;
 }
+/*
 @keyframes background-animation {
     0% {
 
@@ -257,6 +264,7 @@ small {
 
     }
 }
+*/
 
 /* Portrait and Landscape */
 @media(max-width: 900px) {
@@ -289,10 +297,9 @@ screen and (max-height: 700px) {
     .ml5 .letters {
         font-size: 10px;
     }
-    #footer li{
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        line-height: 40px;
+    #footer{
+        
+        
     }
+  
 }
