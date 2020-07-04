@@ -167,7 +167,7 @@ small{
 }
 @media screen and (max-width: 995px) , screen and (max-height: 700px) {
     .section1, .slider, .mySlides{
-        height: 300px;
+        height: 250px;
         background: black;
     }
     .name-title h1{
