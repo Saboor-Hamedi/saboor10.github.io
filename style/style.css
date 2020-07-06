@@ -315,10 +315,13 @@ screen and (max-height: 700px) {
     .ml5 .letters {
         font-size: 10px;
     }
-    .contact-form{
-        
+    .form input{
         width: 100%;
-        background: blue;
+    }
+    .contact-form{
+    
+        width: 100%;
+        
     }
   
 }
