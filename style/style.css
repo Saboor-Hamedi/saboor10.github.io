@@ -220,6 +220,9 @@ small {
     margin-top: 10px;
     width: 400px;
 }
+.form input::before{
+    content: '';
+}
 textarea{
      border: 1px solid #888; 
     height: 200px;
@@ -299,7 +302,7 @@ textarea{
 }
 
 @media screen and (max-width: 995px),
-screen and (max-height: 700px) {
+    screen and (max-height: 700px) {
 
     .section1,
     .slider,
@@ -315,13 +318,11 @@ screen and (max-height: 700px) {
     .ml5 .letters {
         font-size: 10px;
     }
-    .form input{
-        width: 100%;
-    }
-    .contact-form{
-    
-        width: 100%;
-        
-    }
+        .contact-form{
+            background: blue;
+        }
+        .form input, textarea{
+            width: 100%;
+        }
   
 }
