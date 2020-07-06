@@ -283,22 +283,6 @@ textarea{
         text-shadow: 0 0 10px #ffee10;
 }
 /*
-@keyframes background-animation {
-    0% {
-
-        color: #ffee10;
-        
-    }
-
-    100% {
-
-        color: #ffee10;
-        box-shadow: 0 0 5px #ffee10;
-        text-shadow: 0 0 5px #ffee10;
-
-    }
-}
-*/
 
 /* Portrait and Landscape */
 @media(max-width: 900px) {
@@ -331,9 +315,8 @@ screen and (max-height: 700px) {
     .ml5 .letters {
         font-size: 10px;
     }
-    #footer{
-        
-        
+    .contact-form{
+        width: 80%;
     }
   
 }
