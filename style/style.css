@@ -120,6 +120,7 @@ small {
 }
 
 .section3 {
+    position: relative;
     margin-top: 10px;
     background: black;
 }
@@ -172,7 +173,7 @@ small {
 
 /*footer and icons*/
 #footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgb(60, 60, 60);
@@ -201,7 +202,40 @@ small {
 /*    animation: background-animation 5s infinite;*/
 }
 
+/*contact form*/
+.contact-form{
+    margin: auto;
+    max-width: 800px;
+    transform: translateY(8rem);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form input, textarea{
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    width: 400px;
+}
+textarea{
+     border: 1px solid #888; 
+    height: 200px;
+    resize: none;
+    
+}
+#submit-coment{
+    border-radius: 5px;
+    background: #1f1f1f;
+    cursor: pointer;
+    color: white;
+    padding: 8px 10px;
+    margin-top: 10px;
+}
 #footer a {
+    
     text-decoration: none;
 }
 
