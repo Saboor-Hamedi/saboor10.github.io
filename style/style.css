@@ -318,11 +318,17 @@ textarea{
     .ml5 .letters {
         font-size: 10px;
     }
-        .contact-form{
-            background: blue;
-        }
-        .form input, textarea{
-            width: 100%;
-        }
+       
   
+}
+@media (max-width: 600px){
+ .contact-form{
+    
+        width: 100%;
+
+    }
+    .form input, textarea{
+        position: relative;
+        width: 100%;
+    }
 }
